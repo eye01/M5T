@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="vShoppingCar" native="true">
+   <property name="geometry">
+    <rect>
+     <x>533</x>
+     <y>240</y>
+     <width>267</width>
+     <height>240</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>110</y>
+     <width>291</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="StageStart" name="vStart"/>
+   <widget class="RNavigationWidget" name="vNavigation"/>
+   <widget class="StageLogin" name="vLogin"/>
+   <widget class="StageFirst" name="vFirst"/>
+   <widget class="StageChangePassword" name="vChangePassword"/>
+   <widget class="StageRegister" name="vRegister"/>
+   <widget class="QWidget" name="vAbout"/>
+  </widget>
+  <widget class="StageOption" name="vOption" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>267</width>
+     <height>480</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>691</width>
+     <height>501</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>widget</zorder>
+  <zorder>vShoppingCar</zorder>
+  <zorder>stackedWidget</zorder>
+  <zorder>vOption</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>StageStart</class>
+   <extends>QWidget</extends>
+   <header>StageStart.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RNavigationWidget</class>
+   <extends>QWidget</extends>
+   <header>RNavigationWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StageFirst</class>
+   <extends>QWidget</extends>
+   <header>StageFirst.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StageOption</class>
+   <extends>QWidget</extends>
+   <header>StageOption.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StageLogin</class>
+   <extends>QWidget</extends>
+   <header>StageLogin.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StageRegister</class>
+   <extends>QWidget</extends>
+   <header>StageRegister.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StageChangePassword</class>
+   <extends>QWidget</extends>
+   <header>stagechangepassword.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

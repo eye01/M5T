@@ -1,0 +1,3620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/ -f M5Apk.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		6BBBDCF8FF897175232FD2DA = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/Global.cpp";
+			name = "Global.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C6A1348B010C50BECF908758 = {
+			fileRef = "6BBBDCF8FF897175232FD2DA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A6C70A405E8FC54F38D9F165 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemTopMenu.cpp";
+			name = "ItemTopMenu.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0A6965C9DC680AF34A1E2A25 = {
+			fileRef = "A6C70A405E8FC54F38D9F165";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		787533319CAD8AF6E5153B40 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/RNavigationWidget.cpp";
+			name = "RNavigationWidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		27F75FE3E0B26799C5888F10 = {
+			fileRef = "787533319CAD8AF6E5153B40";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3F16E819D1F0D0FBE3742976 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/CallApi.cpp";
+			name = "CallApi.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		891951ECF1115FBC38304F68 = {
+			fileRef = "3F16E819D1F0D0FBE3742976";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		12D585D0D73F3842F805C94D = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/CScrollWidgetV.cpp";
+			name = "CScrollWidgetV.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		89CD36199BF73EF57A0E2289 = {
+			fileRef = "12D585D0D73F3842F805C94D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FFBF0116F430A98153E14CBA = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemButton.cpp";
+			name = "ItemButton.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D176AA2F59F303CBB9D32834 = {
+			fileRef = "FFBF0116F430A98153E14CBA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B74D6CE9C0F4ABAA19255937 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/Csql.cpp";
+			name = "Csql.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0EB75B48A4204A4D0673C6C9 = {
+			fileRef = "B74D6CE9C0F4ABAA19255937";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F48AD8C89DF71DD822DB8950 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/CThread.cpp";
+			name = "CThread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F84162C0029841E18FAA19E4 = {
+			fileRef = "F48AD8C89DF71DD822DB8950";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E1EE45C241C52C27AB9CADD5 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/ItemOnSale.cpp";
+			name = "ItemOnSale.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A46D93BDCF5091B9F442FF97 = {
+			fileRef = "E1EE45C241C52C27AB9CADD5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		310F22F8D29864AA6BD52269 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/Item9Grid.cpp";
+			name = "Item9Grid.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		720AE63FA503E7D78D9924EA = {
+			fileRef = "310F22F8D29864AA6BD52269";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		13C35AA88EE5BBC30DA361CD = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogSelector.cpp";
+			name = "DialogSelector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		969C059613349ECB0D235E07 = {
+			fileRef = "13C35AA88EE5BBC30DA361CD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		97DF7E0928F62FCCC4F6550E = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogDirections.cpp";
+			name = "DialogDirections.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6EB4AAB0C9E5AF4F7C29D8A4 = {
+			fileRef = "97DF7E0928F62FCCC4F6550E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		24CDBEB85430441CAF69CEB2 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemImage.cpp";
+			name = "ItemImage.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B7A0C00F19613AC214D39E60 = {
+			fileRef = "24CDBEB85430441CAF69CEB2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EB186744ABC973144684639F = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemListView.cpp";
+			name = "ItemListView.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6A031F5213DEB7D7DF9FCD26 = {
+			fileRef = "EB186744ABC973144684639F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E8E01EC4A8236BF46A87BAAF = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemLineEdit.cpp";
+			name = "ItemLineEdit.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DCEB128986A791EB87B4231B = {
+			fileRef = "E8E01EC4A8236BF46A87BAAF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		979BC545D1EC2734903C676C = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemTextInput.cpp";
+			name = "ItemTextInput.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		096FE3C746D48109E4896CFD = {
+			fileRef = "979BC545D1EC2734903C676C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4BC1D19B85533C458B662896 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemComboBox.cpp";
+			name = "ItemComboBox.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E3EB7E421AA449B10EF7AD5D = {
+			fileRef = "4BC1D19B85533C458B662896";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9B04D849393F6430E3CBD79D = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogMsg.cpp";
+			name = "DialogMsg.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BF41E8F52364C113BCAB73A3 = {
+			fileRef = "9B04D849393F6430E3CBD79D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		559E2C63692D090CB5C62A93 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogForgetPassword.cpp";
+			name = "DialogForgetPassword.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2499CB2DBF3F7D04F2A5F0E6 = {
+			fileRef = "559E2C63692D090CB5C62A93";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1B54C1350FE502F6E0F5CB5C = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/CTcpClient.cpp";
+			name = "CTcpClient.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		748B2C2375EDD632E5C11AF0 = {
+			fileRef = "1B54C1350FE502F6E0F5CB5C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3D742B80D713DB753ED5A34E = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/RWidget.cpp";
+			name = "RWidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1FCACAA5414D5CED57AD6B7A = {
+			fileRef = "3D742B80D713DB753ED5A34E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DBD0B0AB2D6C0FDE8CEBEF0E = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemProductContent.cpp";
+			name = "ItemProductContent.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B024C58030F765289C3034A8 = {
+			fileRef = "DBD0B0AB2D6C0FDE8CEBEF0E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C1E8E1F761B72111D8000C97 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemLoadingBarA.cpp";
+			name = "ItemLoadingBarA.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F7F6C1ACB676AA9D75ABD4CE = {
+			fileRef = "C1E8E1F761B72111D8000C97";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6ACFC92808FE71384567DDE9 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemChangeBtn.cpp";
+			name = "ItemChangeBtn.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0B50AF177214E3E8BA78B435 = {
+			fileRef = "6ACFC92808FE71384567DDE9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D06F68A4DDE8CB2850D1BFE1 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemBorderLabel.cpp";
+			name = "ItemBorderLabel.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8DB13B7C38D791F51A56174E = {
+			fileRef = "D06F68A4DDE8CB2850D1BFE1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1E31E5AF72429986FF0A0572 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/LayerListView.cpp";
+			name = "LayerListView.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6D95DEB21C9CE76C2C078A63 = {
+			fileRef = "1E31E5AF72429986FF0A0572";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		03BF5603B6DC8E69EA8625A7 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemLoadingBarB.cpp";
+			name = "ItemLoadingBarB.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		01092DC59AD68C3603586548 = {
+			fileRef = "03BF5603B6DC8E69EA8625A7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1061C87E26D839502E13EBDA = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8AE3C7AECB6D07F206505D69 = {
+			fileRef = "1061C87E26D839502E13EBDA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0EBECD730F0E6D6AA98C72B6 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/widget.cpp";
+			name = "widget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0680BB7CC674059AC3298F19 = {
+			fileRef = "0EBECD730F0E6D6AA98C72B6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		35603CA4443C1454A3EFB804 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/LayerLoading.cpp";
+			name = "LayerLoading.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DFDD20BB680321BE489912B4 = {
+			fileRef = "35603CA4443C1454A3EFB804";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1D830E7F3A431C3ACF450B31 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageFirst.cpp";
+			name = "StageFirst.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		39FCDD237A8F8E6657C59D4A = {
+			fileRef = "1D830E7F3A431C3ACF450B31";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2DADA1DAEC3A22D991B4693B = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageLogin.cpp";
+			name = "StageLogin.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EC9255BC3D758E24F4C4574C = {
+			fileRef = "2DADA1DAEC3A22D991B4693B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E9CA5C78E8614FA41D33B513 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageStart.cpp";
+			name = "StageStart.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		52915CB5808FDC90739A3320 = {
+			fileRef = "E9CA5C78E8614FA41D33B513";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9EBD067E6BDFAB33F5FC201B = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/option/ItemOption.cpp";
+			name = "ItemOption.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		07E00CC5A49E0801D6FC92FC = {
+			fileRef = "9EBD067E6BDFAB33F5FC201B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4AC8AA8217277C809C786DBA = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/option/LayerOption.cpp";
+			name = "LayerOption.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DB0B16234F26A7BC3A04256E = {
+			fileRef = "4AC8AA8217277C809C786DBA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6EA170D824173687EBA1CF27 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/LayerBlock.cpp";
+			name = "LayerBlock.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EF4F7421E6D1A44E878E42EE = {
+			fileRef = "6EA170D824173687EBA1CF27";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		96F6C8F55A0DC47308A38DB8 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageChangePassword.cpp";
+			name = "StageChangePassword.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		80DEB4EACAB14EDCE0DC3191 = {
+			fileRef = "96F6C8F55A0DC47308A38DB8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		312F0E7B34F88901E6268FCB = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageOption.cpp";
+			name = "StageOption.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FEE9BB68CA0F385F86E9BE42 = {
+			fileRef = "312F0E7B34F88901E6268FCB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		56362D7F27D84A46DC0860EE = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageRegister.cpp";
+			name = "StageRegister.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		37E575ACBF2AB72E83CDAEAB = {
+			fileRef = "56362D7F27D84A46DC0860EE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		17A0C9AB5F42F4163A1AA6C4 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/product_list/InterfaceView.cpp";
+			name = "InterfaceView.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3E4DE292E6532CC213E34F99 = {
+			fileRef = "17A0C9AB5F42F4163A1AA6C4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		398CF734E105CE88EE137D46 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/product_list/Item4View.cpp";
+			name = "Item4View.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7032D6A167E64F0834FAF19E = {
+			fileRef = "398CF734E105CE88EE137D46";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0FF780310C8AD420B3FA15C8 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/product_list/ItemZooming.cpp";
+			name = "ItemZooming.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CA0F573E987BC168B8103AE8 = {
+			fileRef = "0FF780310C8AD420B3FA15C8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A4CE2C1BCB2C7DFC5F858525 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/product_list/Layer4View.cpp";
+			name = "Layer4View.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		16B47269A3E1B695076D27A9 = {
+			fileRef = "A4CE2C1BCB2C7DFC5F858525";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D8C153E090DFA0A5AC318F0E = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/product_list/LayerZoomView.cpp";
+			name = "LayerZoomView.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EC1112D2892D302AA5C6CB72 = {
+			fileRef = "D8C153E090DFA0A5AC318F0E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		24A6AF07D569024A0AE60CDD = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/m5apk_plugin_import.cpp";
+			name = "m5apk_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		07A22EE920D44608B2701EE1 = {
+			fileRef = "24A6AF07D569024A0AE60CDD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C82DA20243F8A20DE11FDBE0 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/qrc_pic.cpp";
+			name = "qrc_pic.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		790B64BEE9269ACB1BF9DEF3 = {
+			fileRef = "C82DA20243F8A20DE11FDBE0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0D2E543A9C3C5674D3ED9E3A = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_Global.cpp";
+			name = "moc_Global.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BB97C15D1B4A63DCD6E7B2C9 = {
+			fileRef = "0D2E543A9C3C5674D3ED9E3A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B823E526473E810CF6589165 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemTopMenu.cpp";
+			name = "moc_ItemTopMenu.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1A146421D2442092041A3DB2 = {
+			fileRef = "B823E526473E810CF6589165";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E6A092FFA0F3BA312D45344B = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_RNavigationWidget.cpp";
+			name = "moc_RNavigationWidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1448D002FF1A5C9A3D0EA7AA = {
+			fileRef = "E6A092FFA0F3BA312D45344B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		869CDDFA2319B6D5689F37F7 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_CallApi.cpp";
+			name = "moc_CallApi.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E51C485883C1256AC263B6B5 = {
+			fileRef = "869CDDFA2319B6D5689F37F7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1DE5062D877632A2FA61C81F = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_CScrollWidgetV.cpp";
+			name = "moc_CScrollWidgetV.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9467073043527518CB690221 = {
+			fileRef = "1DE5062D877632A2FA61C81F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E775ACD06AEC5A85A906B705 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemButton.cpp";
+			name = "moc_ItemButton.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D4EA275F22A834F62C0F6F38 = {
+			fileRef = "E775ACD06AEC5A85A906B705";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		44CCE30E3F31A042B33B27DB = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_Csql.cpp";
+			name = "moc_Csql.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3FA5E9050DBEA396FCDCE538 = {
+			fileRef = "44CCE30E3F31A042B33B27DB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B3BAEBF4B0E7AA6100A8F5FB = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_CThread.cpp";
+			name = "moc_CThread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2F690FF5DC2CB2D192BB3A30 = {
+			fileRef = "B3BAEBF4B0E7AA6100A8F5FB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8163DCE77FF93750FFDD990B = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemOnSale.cpp";
+			name = "moc_ItemOnSale.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		30EEE65274DC92973716BAF7 = {
+			fileRef = "8163DCE77FF93750FFDD990B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4742FA5781B3B361D5B8C7DF = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_Item9Grid.cpp";
+			name = "moc_Item9Grid.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A72DC83F961C87F079C625D2 = {
+			fileRef = "4742FA5781B3B361D5B8C7DF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5059D407CC1EF99C4B689AEA = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_DialogSelector.cpp";
+			name = "moc_DialogSelector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8F7E7011671B70A83BD985BF = {
+			fileRef = "5059D407CC1EF99C4B689AEA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FCFCB4D26AD02AE7DAA3902C = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_DialogDirections.cpp";
+			name = "moc_DialogDirections.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3A303FEAD51DFA61AF0DAEDA = {
+			fileRef = "FCFCB4D26AD02AE7DAA3902C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5A13BC6DB3BF1FFE35E21990 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemImage.cpp";
+			name = "moc_ItemImage.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5ADF9B21AF7F6F6F797364D6 = {
+			fileRef = "5A13BC6DB3BF1FFE35E21990";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9C94EE7AA4295D46415F3B15 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemListView.cpp";
+			name = "moc_ItemListView.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		13CBF1C07588153ED912C0DD = {
+			fileRef = "9C94EE7AA4295D46415F3B15";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		431A9AD4376F28AE3CA6CD58 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemLineEdit.cpp";
+			name = "moc_ItemLineEdit.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1B007A692F475C3315D313FB = {
+			fileRef = "431A9AD4376F28AE3CA6CD58";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A7B2DF62E81EE19E631CCCA1 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemTextInput.cpp";
+			name = "moc_ItemTextInput.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0425EDDB17A314B741F8F43F = {
+			fileRef = "A7B2DF62E81EE19E631CCCA1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		634DBBCB1D8B770CBC047F43 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemComboBox.cpp";
+			name = "moc_ItemComboBox.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A8C65E5AB5BF9F8B1949C3A0 = {
+			fileRef = "634DBBCB1D8B770CBC047F43";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3F95F72E460772650F653AC1 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_DialogMsg.cpp";
+			name = "moc_DialogMsg.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1E81DB78CDF8FFC64E5A4D10 = {
+			fileRef = "3F95F72E460772650F653AC1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C55D1D12AC0C460582C62804 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_DialogForgetPassword.cpp";
+			name = "moc_DialogForgetPassword.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5464F286A9C46CBEAF9653D8 = {
+			fileRef = "C55D1D12AC0C460582C62804";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FAEC772EA4F25947893C5943 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_CTcpClient.cpp";
+			name = "moc_CTcpClient.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8E1E2669206764F381901958 = {
+			fileRef = "FAEC772EA4F25947893C5943";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9904B6017D081D28F7A3904B = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_RWidget.cpp";
+			name = "moc_RWidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0783173D1B1964F5A06EFEF4 = {
+			fileRef = "9904B6017D081D28F7A3904B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6FDEFD550140B2A57BF23B0B = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemProductContent.cpp";
+			name = "moc_ItemProductContent.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1486582131267D481D62E4B9 = {
+			fileRef = "6FDEFD550140B2A57BF23B0B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		49F4DC06444F1940D0C985D4 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemLoadingBarA.cpp";
+			name = "moc_ItemLoadingBarA.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		32B69DACC8DDA475D2A85A34 = {
+			fileRef = "49F4DC06444F1940D0C985D4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B4E11FB49F3788C512A69693 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemChangeBtn.cpp";
+			name = "moc_ItemChangeBtn.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E304B3C8BE8E2A30DED8DC36 = {
+			fileRef = "B4E11FB49F3788C512A69693";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B8E05DE78EA44A0F2EA1AEAC = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemBorderLabel.cpp";
+			name = "moc_ItemBorderLabel.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E32529356D36F0FD32BB5654 = {
+			fileRef = "B8E05DE78EA44A0F2EA1AEAC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0DD70252071C0C3EBB0BD1EB = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_LayerListView.cpp";
+			name = "moc_LayerListView.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B3FD5DE475844B4A24CD9211 = {
+			fileRef = "0DD70252071C0C3EBB0BD1EB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7E043C4BFB98E5EA6CA26BC9 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemLoadingBarB.cpp";
+			name = "moc_ItemLoadingBarB.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B53B69B52A93E85E7E973FA5 = {
+			fileRef = "7E043C4BFB98E5EA6CA26BC9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		848765E02C9B1D9E063D4799 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_widget.cpp";
+			name = "moc_widget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		306D00744A02996B2D8E629B = {
+			fileRef = "848765E02C9B1D9E063D4799";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		64F030429C73AE605A8076B2 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_LayerLoading.cpp";
+			name = "moc_LayerLoading.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		08B8A5FED81F37080B89B969 = {
+			fileRef = "64F030429C73AE605A8076B2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8DEE25ED403EFB15AE3F33FE = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_StageFirst.cpp";
+			name = "moc_StageFirst.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E3902E38B7664DDDC85C762E = {
+			fileRef = "8DEE25ED403EFB15AE3F33FE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		81DC9477B0B24062A639C17D = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_StageLogin.cpp";
+			name = "moc_StageLogin.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A6271145815ADCB710E7D43C = {
+			fileRef = "81DC9477B0B24062A639C17D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		52ABD8D3C0A0D1D0FEAD20F4 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_StageStart.cpp";
+			name = "moc_StageStart.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		59A2C8086E7AE80FCBAD63E4 = {
+			fileRef = "52ABD8D3C0A0D1D0FEAD20F4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		51B5BE5C913C83383FFFEA85 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemOption.cpp";
+			name = "moc_ItemOption.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BF1D12713D471949169BECD8 = {
+			fileRef = "51B5BE5C913C83383FFFEA85";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		305684CD9703640A6F7B1313 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_LayerOption.cpp";
+			name = "moc_LayerOption.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		91C89566096AFD3150C4E414 = {
+			fileRef = "305684CD9703640A6F7B1313";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6E2DC27F138A7753C3B346FC = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_LayerBlock.cpp";
+			name = "moc_LayerBlock.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C4346E50375439F2DB6D12A7 = {
+			fileRef = "6E2DC27F138A7753C3B346FC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CCFE70F5036EEA4DEB0BABD0 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_StageChangePassword.cpp";
+			name = "moc_StageChangePassword.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3FEEC8CB8C5D008125550D14 = {
+			fileRef = "CCFE70F5036EEA4DEB0BABD0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C106B8FCA252E74F592BC906 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_StageOption.cpp";
+			name = "moc_StageOption.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A6599D9FDF5854724EBEBE24 = {
+			fileRef = "C106B8FCA252E74F592BC906";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3E6F9CE7720E7F15C35F3EC2 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_StageRegister.cpp";
+			name = "moc_StageRegister.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E09EA1F6B4C253F99BF42853 = {
+			fileRef = "3E6F9CE7720E7F15C35F3EC2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F258630F8403156AE4A3F082 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_InterfaceView.cpp";
+			name = "moc_InterfaceView.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		765A59D27FF8EDD947D847DA = {
+			fileRef = "F258630F8403156AE4A3F082";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1325887B243569AE315DE114 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_Item4View.cpp";
+			name = "moc_Item4View.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4097D3D3A69B88896B875E8C = {
+			fileRef = "1325887B243569AE315DE114";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3D5BA6D4FB1A2AB136750678 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_ItemZooming.cpp";
+			name = "moc_ItemZooming.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C625A496264139632579E8CE = {
+			fileRef = "3D5BA6D4FB1A2AB136750678";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0837ED1115EC2968D5EDA294 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_Layer4View.cpp";
+			name = "moc_Layer4View.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9CB9C7E3BDACA3043567E4B4 = {
+			fileRef = "0837ED1115EC2968D5EDA294";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5A2CD501239959A31CC84E35 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/moc_LayerZoomView.cpp";
+			name = "moc_LayerZoomView.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		706CEB865BE3F3098136474E = {
+			fileRef = "5A2CD501239959A31CC84E35";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		31790DBA1735A63B48AC71D6 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_ItemTopMenu.h";
+			name = "ui_ItemTopMenu.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B67A731A66FC65C9CEB6C2EB = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_ItemOnSale.h";
+			name = "ui_ItemOnSale.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		28749BE41B9594F4D2EA25C3 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_Item9Grid.h";
+			name = "ui_Item9Grid.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		727804E7FDA67E9CCE7C9778 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_DialogSelector.h";
+			name = "ui_DialogSelector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3FB01202DDE620E2C19D8594 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_DialogDirections.h";
+			name = "ui_DialogDirections.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		97312C530308CA2DB04081B8 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_ItemShoppingCar.h";
+			name = "ui_ItemShoppingCar.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DD5C215741D277E164485B19 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_ItemLineEdit.h";
+			name = "ui_ItemLineEdit.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		65801B1815B1CF7075F2190B = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_ItemTextInput.h";
+			name = "ui_ItemTextInput.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A220A1BA97ADD8869842875C = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_ItemComboBox.h";
+			name = "ui_ItemComboBox.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0C614DBC50D2CED388B7D79E = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_DialogMsg.h";
+			name = "ui_DialogMsg.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5FC1622DEC783936809D8D27 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_DialogForgetPassword.h";
+			name = "ui_DialogForgetPassword.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CFE32820C26319299304B5D0 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_ItemProductContent.h";
+			name = "ui_ItemProductContent.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		319D4F500312B813A2B0137E = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_ItemBorderLabel.h";
+			name = "ui_ItemBorderLabel.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0D903D41C65C3803C4F8E4F0 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_ItemLoadingBarB.h";
+			name = "ui_ItemLoadingBarB.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		52A24713F9CCF97E78435AC3 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_widget.h";
+			name = "ui_widget.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9D934766E6DD9EEC2594EBB2 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_LayerLoading.h";
+			name = "ui_LayerLoading.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EEF5A8ED5D350092F8EACA24 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_StageFirst.h";
+			name = "ui_StageFirst.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		27E5AB15F70B39C8E9A93D3F = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_StageLogin.h";
+			name = "ui_StageLogin.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A3F76B4797E2D5B4DB56A9AB = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_StageStart.h";
+			name = "ui_StageStart.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		81AA613484972992DD2C6118 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_ItemOption.h";
+			name = "ui_ItemOption.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8A2BF5C525CC46D6A307970F = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_StageChangePassword.h";
+			name = "ui_StageChangePassword.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		94CF97D24011DC923540C0A0 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_StageRegister.h";
+			name = "ui_StageRegister.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9CA6EDFE397DC8331E30B79E = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_Item4View.h";
+			name = "ui_Item4View.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		287A6E2B6AB3C8232B080A8F = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/obj/ui_header/ui_LayerBlock.h";
+			name = "ui_LayerBlock.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		87D7DBBEA9AA174D3EDB0736 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/Global.h";
+			name = "Global.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		BCEB079D79C1A60730D16A4B = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemTopMenu.h";
+			name = "ItemTopMenu.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3F26315A05D84A3EC9CCE2F1 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/RNavigationWidget.h";
+			name = "RNavigationWidget.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4238E8C02C0C8D91AFAE0083 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/CallApi.h";
+			name = "CallApi.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		475F3F0CE2780CACF57A40BE = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/CScrollWidgetV.h";
+			name = "CScrollWidgetV.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A5D23D0DE0A7E5B1922BEB8B = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemButton.h";
+			name = "ItemButton.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		83615DB1FBB38AAD17D0DDBC = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/Csql.h";
+			name = "Csql.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		842DED13B347A14B69EEC400 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/CThread.h";
+			name = "CThread.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		81A3188D8CB88A1BB87C448C = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/ItemOnSale.h";
+			name = "ItemOnSale.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3815BCF1AE29B7CDD5322751 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/Item9Grid.h";
+			name = "Item9Grid.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1BEF77C5333B052A3AEA0A6E = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogSelector.h";
+			name = "DialogSelector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5B61559ED60D7C63198262FB = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogDirections.h";
+			name = "DialogDirections.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		31FA5F7EF0DA31AEA2C111C5 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemImage.h";
+			name = "ItemImage.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A06FC870237CE5BEB381779C = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemListView.h";
+			name = "ItemListView.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		89635C13ED3976DB769C8F60 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemLineEdit.h";
+			name = "ItemLineEdit.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B904083C295F2D6EDE8BA9A9 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemTextInput.h";
+			name = "ItemTextInput.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3CB19EA13F707C29B00A0EED = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemComboBox.h";
+			name = "ItemComboBox.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9CD30558B633DDA39908A7FA = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogMsg.h";
+			name = "DialogMsg.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		18CEAE545B8D412BFA924AA4 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogForgetPassword.h";
+			name = "DialogForgetPassword.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		389EE4825F774B03127C9B28 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/CTcpClient.h";
+			name = "CTcpClient.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2048267D2B39015C16DE7D06 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/RWidget.h";
+			name = "RWidget.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		266405C6C500E35E7BDD0168 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemProductContent.h";
+			name = "ItemProductContent.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DBB36CEC8478F07B744D6DBD = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemLoadingBarA.h";
+			name = "ItemLoadingBarA.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F82191E8345E69609718B2A4 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemChangeBtn.h";
+			name = "ItemChangeBtn.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1718DE4AA16D27B247217AB7 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemBorderLabel.h";
+			name = "ItemBorderLabel.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C73A08F98CC74E5E06CFA5C5 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/LayerListView.h";
+			name = "LayerListView.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DAA592C9A23E5B0D07850A86 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemLoadingBarB.h";
+			name = "ItemLoadingBarB.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7DD33A7E7A2B608AF6E22CA6 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/widget.h";
+			name = "widget.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9C8041CCA0E966EBC4EE9A3E = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/LayerLoading.h";
+			name = "LayerLoading.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F6F87D1919D31B9F35EA5956 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageFirst.h";
+			name = "StageFirst.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DA29D860225301DD6A7E3EC7 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageLogin.h";
+			name = "StageLogin.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9609CB6E6F16903C40597C51 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageStart.h";
+			name = "StageStart.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2694B5C401E1D18581EDE84A = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/option/ItemOption.h";
+			name = "ItemOption.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		87939349E5622297A9BDA3D3 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/option/LayerOption.h";
+			name = "LayerOption.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		766491A1EC3CCAC450B407A5 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/LayerBlock.h";
+			name = "LayerBlock.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		250C4E4E077EF13D9CD377E1 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageChangePassword.h";
+			name = "StageChangePassword.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		36B53A866252D99E95CAFAAD = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageOption.h";
+			name = "StageOption.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AF946598FAAE2E424DB304B1 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageRegister.h";
+			name = "StageRegister.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1D3F1E5EE18A54C5CD61F11C = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/product_list/InterfaceView.h";
+			name = "InterfaceView.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CBE19CBB567FA2EF6D9BC9A2 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/product_list/Item4View.h";
+			name = "Item4View.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1BD197808C8BCE5C98E14812 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/product_list/ItemZooming.h";
+			name = "ItemZooming.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4A5F1A13CEB1FB14B8DDEF0F = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/product_list/Layer4View.h";
+			name = "Layer4View.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5526017AAE475C42E9DE3781 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/product_list/LayerZoomView.h";
+			name = "LayerZoomView.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		49441C4D44278F541D5D1D73 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/M5Apk.pro";
+			name = "M5Apk.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		ED1D4903B51D9909B352F1CA = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		D1787E1A0B6D17F389D139AF = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/Global.pri";
+			name = "Global.pri";
+			sourceTree = "<absolute>";
+		};
+		3BECC203E4CE070C65C4E97C = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/pic.qrc";
+			name = "pic.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		3BECC203E4CE070C65C4E97C = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/pic.qrc";
+			name = "pic.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		2C6ADC77D6CE0734E6C07101 = {
+			fileRef = "3BECC203E4CE070C65C4E97C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		28930C1EA59E833FEEA65007 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemTopMenu.ui";
+			name = "ItemTopMenu.ui";
+			sourceTree = "<absolute>";
+		};
+		98B4BB5A162FB0DC0C6F4422 = {
+			fileRef = "28930C1EA59E833FEEA65007";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1B6BA90907555E8954709133 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/ItemOnSale.ui";
+			name = "ItemOnSale.ui";
+			sourceTree = "<absolute>";
+		};
+		7AB62FFDADFE6205B0A40489 = {
+			fileRef = "1B6BA90907555E8954709133";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2E70D1787528190DA000A294 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/Item9Grid.ui";
+			name = "Item9Grid.ui";
+			sourceTree = "<absolute>";
+		};
+		7EB258812372B4D13541D52E = {
+			fileRef = "2E70D1787528190DA000A294";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BAD9A8FDBF8D26109ECF85D6 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogSelector.ui";
+			name = "DialogSelector.ui";
+			sourceTree = "<absolute>";
+		};
+		ABED993653FDB2B5B2775FA6 = {
+			fileRef = "BAD9A8FDBF8D26109ECF85D6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BAFC404D6D6FE7CAAA257352 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogDirections.ui";
+			name = "DialogDirections.ui";
+			sourceTree = "<absolute>";
+		};
+		B490C49C7279AEFFB0BE8320 = {
+			fileRef = "BAFC404D6D6FE7CAAA257352";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		27B6CF73912D186F0000D05B = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemShoppingCar.ui";
+			name = "ItemShoppingCar.ui";
+			sourceTree = "<absolute>";
+		};
+		0C75CA7F361C8A31AFDAD71C = {
+			fileRef = "27B6CF73912D186F0000D05B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FA6132D329020FDB4E304ABC = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemLineEdit.ui";
+			name = "ItemLineEdit.ui";
+			sourceTree = "<absolute>";
+		};
+		7FD40737F80CD4AEDF5A1A0C = {
+			fileRef = "FA6132D329020FDB4E304ABC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E4B8167956B0724BD4398755 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemTextInput.ui";
+			name = "ItemTextInput.ui";
+			sourceTree = "<absolute>";
+		};
+		6B6B58DDBA97FCCC5D4FE906 = {
+			fileRef = "E4B8167956B0724BD4398755";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0FFC5120FF9C54B55581BEA3 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemComboBox.ui";
+			name = "ItemComboBox.ui";
+			sourceTree = "<absolute>";
+		};
+		1E4AD1353E7C19D534C0D483 = {
+			fileRef = "0FFC5120FF9C54B55581BEA3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		856542FD2A3E04DC3FD5F681 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogMsg.ui";
+			name = "DialogMsg.ui";
+			sourceTree = "<absolute>";
+		};
+		3FA59D16236F2844C608645F = {
+			fileRef = "856542FD2A3E04DC3FD5F681";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6A11B267C6FBB10DEC07C661 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/DialogForgetPassword.ui";
+			name = "DialogForgetPassword.ui";
+			sourceTree = "<absolute>";
+		};
+		A59611F751FF0F8149543EC5 = {
+			fileRef = "6A11B267C6FBB10DEC07C661";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B0941EE85B63473FC16AFD09 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemProductContent.ui";
+			name = "ItemProductContent.ui";
+			sourceTree = "<absolute>";
+		};
+		69645A48CF75FE287319713F = {
+			fileRef = "B0941EE85B63473FC16AFD09";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4C44F95C9845AE4EDFCF9A6E = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemBorderLabel.ui";
+			name = "ItemBorderLabel.ui";
+			sourceTree = "<absolute>";
+		};
+		E6251E2449D4A022C2DC6560 = {
+			fileRef = "4C44F95C9845AE4EDFCF9A6E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D1977EF580DFA2E3386103E5 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/global/component/item/ItemLoadingBarB.ui";
+			name = "ItemLoadingBarB.ui";
+			sourceTree = "<absolute>";
+		};
+		4965E2ED733BA0C45A9B05E6 = {
+			fileRef = "D1977EF580DFA2E3386103E5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		79512B917597FE7309641687 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/widget.ui";
+			name = "widget.ui";
+			sourceTree = "<absolute>";
+		};
+		EDF40611A7EF53B0A1E205CD = {
+			fileRef = "79512B917597FE7309641687";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C27D65D36414D795024079C8 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/LayerLoading.ui";
+			name = "LayerLoading.ui";
+			sourceTree = "<absolute>";
+		};
+		97EF1F262975B6B89C54B189 = {
+			fileRef = "C27D65D36414D795024079C8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		22CE0F6DB30D53459DF5F673 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageFirst.ui";
+			name = "StageFirst.ui";
+			sourceTree = "<absolute>";
+		};
+		475FDB2B068D14C1F3AC2600 = {
+			fileRef = "22CE0F6DB30D53459DF5F673";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5B93D86433CB33126F372C8E = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageLogin.ui";
+			name = "StageLogin.ui";
+			sourceTree = "<absolute>";
+		};
+		E02ABC0819AD04E01C56C7DE = {
+			fileRef = "5B93D86433CB33126F372C8E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		97E88FAEC5A69D2B8BD8E3BD = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageStart.ui";
+			name = "StageStart.ui";
+			sourceTree = "<absolute>";
+		};
+		864C8F8C558E26824AA018C7 = {
+			fileRef = "97E88FAEC5A69D2B8BD8E3BD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		17FEA2DC5D9E476DCFC2FBAB = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/option/ItemOption.ui";
+			name = "ItemOption.ui";
+			sourceTree = "<absolute>";
+		};
+		12D4F200FA380B1A6FB57EF8 = {
+			fileRef = "17FEA2DC5D9E476DCFC2FBAB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B0B01F41CB75AFA0AACC9F9D = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageChangePassword.ui";
+			name = "StageChangePassword.ui";
+			sourceTree = "<absolute>";
+		};
+		6D549E33B81E11C90F9CC842 = {
+			fileRef = "B0B01F41CB75AFA0AACC9F9D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9580DC71C4DD7B015F9D2D68 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/StageRegister.ui";
+			name = "StageRegister.ui";
+			sourceTree = "<absolute>";
+		};
+		C24CB96586E7B7BAA4309BD3 = {
+			fileRef = "9580DC71C4DD7B015F9D2D68";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C6E346272050017F905D7B0C = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/product_list/Item4View.ui";
+			name = "Item4View.ui";
+			sourceTree = "<absolute>";
+		};
+		68196F9F29A260661E015BFE = {
+			fileRef = "C6E346272050017F905D7B0C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		10BE4F941A2B42409119EA6C = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/LayerBlock.ui";
+			name = "LayerBlock.ui";
+			sourceTree = "<absolute>";
+		};
+		0FF4A44E6886278527521DA9 = {
+			fileRef = "10BE4F941A2B42409119EA6C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"C82DA20243F8A20DE11FDBE0",
+				"42393067A6AC91638A9EB7D9");
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		42393067A6AC91638A9EB7D9 = {
+			isa = PBXGroup;
+			children = (
+				"0D2E543A9C3C5674D3ED9E3A",
+				"B823E526473E810CF6589165",
+				"E6A092FFA0F3BA312D45344B",
+				"869CDDFA2319B6D5689F37F7",
+				"1DE5062D877632A2FA61C81F",
+				"E775ACD06AEC5A85A906B705",
+				"44CCE30E3F31A042B33B27DB",
+				"B3BAEBF4B0E7AA6100A8F5FB",
+				"8163DCE77FF93750FFDD990B",
+				"4742FA5781B3B361D5B8C7DF",
+				"5059D407CC1EF99C4B689AEA",
+				"FCFCB4D26AD02AE7DAA3902C",
+				"5A13BC6DB3BF1FFE35E21990",
+				"9C94EE7AA4295D46415F3B15",
+				"431A9AD4376F28AE3CA6CD58",
+				"A7B2DF62E81EE19E631CCCA1",
+				"634DBBCB1D8B770CBC047F43",
+				"3F95F72E460772650F653AC1",
+				"C55D1D12AC0C460582C62804",
+				"FAEC772EA4F25947893C5943",
+				"9904B6017D081D28F7A3904B",
+				"6FDEFD550140B2A57BF23B0B",
+				"49F4DC06444F1940D0C985D4",
+				"B4E11FB49F3788C512A69693",
+				"B8E05DE78EA44A0F2EA1AEAC",
+				"0DD70252071C0C3EBB0BD1EB",
+				"7E043C4BFB98E5EA6CA26BC9",
+				"848765E02C9B1D9E063D4799",
+				"64F030429C73AE605A8076B2",
+				"8DEE25ED403EFB15AE3F33FE",
+				"81DC9477B0B24062A639C17D",
+				"52ABD8D3C0A0D1D0FEAD20F4",
+				"51B5BE5C913C83383FFFEA85",
+				"305684CD9703640A6F7B1313",
+				"6E2DC27F138A7753C3B346FC",
+				"CCFE70F5036EEA4DEB0BABD0",
+				"C106B8FCA252E74F592BC906",
+				"3E6F9CE7720E7F15C35F3EC2",
+				"F258630F8403156AE4A3F082",
+				"1325887B243569AE315DE114",
+				"3D5BA6D4FB1A2AB136750678",
+				"0837ED1115EC2968D5EDA294",
+				"5A2CD501239959A31CC84E35",
+				"19F57B017E6077714A636AED");
+			name = "obj";
+			sourceTree = "<group>";
+		};
+		19F57B017E6077714A636AED = {
+			isa = PBXGroup;
+			children = (
+				"31790DBA1735A63B48AC71D6",
+				"B67A731A66FC65C9CEB6C2EB",
+				"28749BE41B9594F4D2EA25C3",
+				"727804E7FDA67E9CCE7C9778",
+				"3FB01202DDE620E2C19D8594",
+				"97312C530308CA2DB04081B8",
+				"DD5C215741D277E164485B19",
+				"65801B1815B1CF7075F2190B",
+				"A220A1BA97ADD8869842875C",
+				"0C614DBC50D2CED388B7D79E",
+				"5FC1622DEC783936809D8D27",
+				"CFE32820C26319299304B5D0",
+				"319D4F500312B813A2B0137E",
+				"0D903D41C65C3803C4F8E4F0",
+				"52A24713F9CCF97E78435AC3",
+				"9D934766E6DD9EEC2594EBB2",
+				"EEF5A8ED5D350092F8EACA24",
+				"27E5AB15F70B39C8E9A93D3F",
+				"A3F76B4797E2D5B4DB56A9AB",
+				"81AA613484972992DD2C6118",
+				"8A2BF5C525CC46D6A307970F",
+				"94CF97D24011DC923540C0A0",
+				"9CA6EDFE397DC8331E30B79E",
+				"287A6E2B6AB3C8232B080A8F");
+			name = "ui_header";
+			sourceTree = "<group>";
+		};
+		954B2D0F99B539B97EBC5A1A = {
+			isa = PBXGroup;
+			children = (
+				"29CB8F6EA271CFA84BADBC47");
+			name = "global";
+			sourceTree = "<group>";
+		};
+		29CB8F6EA271CFA84BADBC47 = {
+			isa = PBXGroup;
+			children = (
+				"567467D4E66ACFFC0EE8D765",
+				"1B6BA90907555E8954709133",
+				"BAD9A8FDBF8D26109ECF85D6",
+				"BAFC404D6D6FE7CAAA257352",
+				"856542FD2A3E04DC3FD5F681",
+				"6A11B267C6FBB10DEC07C661");
+			name = "component";
+			sourceTree = "<group>";
+		};
+		567467D4E66ACFFC0EE8D765 = {
+			isa = PBXGroup;
+			children = (
+				"28930C1EA59E833FEEA65007",
+				"2E70D1787528190DA000A294",
+				"27B6CF73912D186F0000D05B",
+				"FA6132D329020FDB4E304ABC",
+				"E4B8167956B0724BD4398755",
+				"0FFC5120FF9C54B55581BEA3",
+				"B0941EE85B63473FC16AFD09",
+				"4C44F95C9845AE4EDFCF9A6E",
+				"D1977EF580DFA2E3386103E5");
+			name = "item";
+			sourceTree = "<group>";
+		};
+		7D8FB04D5A9F4EB9CFFAA553 = {
+			isa = PBXGroup;
+			children = (
+				"17FEA2DC5D9E476DCFC2FBAB");
+			name = "option";
+			sourceTree = "<group>";
+		};
+		5DF7366E1187BB347FE3BD01 = {
+			isa = PBXGroup;
+			children = (
+				"C6E346272050017F905D7B0C");
+			name = "product_list";
+			sourceTree = "<group>";
+		};
+		74468973BE6190F26763710A = {
+			isa = PBXGroup;
+			children = (
+				"6BBBDCF8FF897175232FD2DA",
+				"2EB981DB6BB7AD774392FC22",
+				"3F16E819D1F0D0FBE3742976",
+				"B74D6CE9C0F4ABAA19255937",
+				"F48AD8C89DF71DD822DB8950",
+				"1B54C1350FE502F6E0F5CB5C",
+				"87D7DBBEA9AA174D3EDB0736",
+				"4238E8C02C0C8D91AFAE0083",
+				"83615DB1FBB38AAD17D0DDBC",
+				"842DED13B347A14B69EEC400",
+				"389EE4825F774B03127C9B28");
+			name = "global";
+			sourceTree = "<group>";
+		};
+		2EB981DB6BB7AD774392FC22 = {
+			isa = PBXGroup;
+			children = (
+				"90C093FFDB6A447EC1A07291",
+				"787533319CAD8AF6E5153B40",
+				"12D585D0D73F3842F805C94D",
+				"E1EE45C241C52C27AB9CADD5",
+				"13C35AA88EE5BBC30DA361CD",
+				"97DF7E0928F62FCCC4F6550E",
+				"9B04D849393F6430E3CBD79D",
+				"559E2C63692D090CB5C62A93",
+				"3D742B80D713DB753ED5A34E",
+				"1E31E5AF72429986FF0A0572",
+				"3F26315A05D84A3EC9CCE2F1",
+				"475F3F0CE2780CACF57A40BE",
+				"81A3188D8CB88A1BB87C448C",
+				"1BEF77C5333B052A3AEA0A6E",
+				"5B61559ED60D7C63198262FB",
+				"9CD30558B633DDA39908A7FA",
+				"18CEAE545B8D412BFA924AA4",
+				"2048267D2B39015C16DE7D06",
+				"C73A08F98CC74E5E06CFA5C5");
+			name = "component";
+			sourceTree = "<group>";
+		};
+		90C093FFDB6A447EC1A07291 = {
+			isa = PBXGroup;
+			children = (
+				"A6C70A405E8FC54F38D9F165",
+				"FFBF0116F430A98153E14CBA",
+				"310F22F8D29864AA6BD52269",
+				"24CDBEB85430441CAF69CEB2",
+				"EB186744ABC973144684639F",
+				"E8E01EC4A8236BF46A87BAAF",
+				"979BC545D1EC2734903C676C",
+				"4BC1D19B85533C458B662896",
+				"DBD0B0AB2D6C0FDE8CEBEF0E",
+				"C1E8E1F761B72111D8000C97",
+				"6ACFC92808FE71384567DDE9",
+				"D06F68A4DDE8CB2850D1BFE1",
+				"03BF5603B6DC8E69EA8625A7",
+				"BCEB079D79C1A60730D16A4B",
+				"A5D23D0DE0A7E5B1922BEB8B",
+				"3815BCF1AE29B7CDD5322751",
+				"31FA5F7EF0DA31AEA2C111C5",
+				"A06FC870237CE5BEB381779C",
+				"89635C13ED3976DB769C8F60",
+				"B904083C295F2D6EDE8BA9A9",
+				"3CB19EA13F707C29B00A0EED",
+				"266405C6C500E35E7BDD0168",
+				"DBB36CEC8478F07B744D6DBD",
+				"F82191E8345E69609718B2A4",
+				"1718DE4AA16D27B247217AB7",
+				"DAA592C9A23E5B0D07850A86");
+			name = "item";
+			sourceTree = "<group>";
+		};
+		67D00C0AAEC66EB2A2FBB314 = {
+			isa = PBXGroup;
+			children = (
+				"9EBD067E6BDFAB33F5FC201B",
+				"4AC8AA8217277C809C786DBA",
+				"2694B5C401E1D18581EDE84A",
+				"87939349E5622297A9BDA3D3");
+			name = "option";
+			sourceTree = "<group>";
+		};
+		5C4DF9A6C5848BCF07115082 = {
+			isa = PBXGroup;
+			children = (
+				"17A0C9AB5F42F4163A1AA6C4",
+				"398CF734E105CE88EE137D46",
+				"0FF780310C8AD420B3FA15C8",
+				"A4CE2C1BCB2C7DFC5F858525",
+				"D8C153E090DFA0A5AC318F0E",
+				"1D3F1E5EE18A54C5CD61F11C",
+				"CBE19CBB567FA2EF6D9BC9A2",
+				"1BD197808C8BCE5C98E14812",
+				"4A5F1A13CEB1FB14B8DDEF0F",
+				"5526017AAE475C42E9DE3781");
+			name = "product_list";
+			sourceTree = "<group>";
+		};
+		F9133C967F397499863F90CE = {
+			isa = PBXGroup;
+			children = (
+				"D1787E1A0B6D17F389D139AF");
+			name = "global";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 = {
+			isa = PBXGroup;
+			children = (
+				"3BECC203E4CE070C65C4E97C");
+			name = "Resources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"74468973BE6190F26763710A",
+				"1061C87E26D839502E13EBDA",
+				"0EBECD730F0E6D6AA98C72B6",
+				"35603CA4443C1454A3EFB804",
+				"1D830E7F3A431C3ACF450B31",
+				"2DADA1DAEC3A22D991B4693B",
+				"E9CA5C78E8614FA41D33B513",
+				"67D00C0AAEC66EB2A2FBB314",
+				"6EA170D824173687EBA1CF27",
+				"96F6C8F55A0DC47308A38DB8",
+				"312F0E7B34F88901E6268FCB",
+				"56362D7F27D84A46DC0860EE",
+				"5C4DF9A6C5848BCF07115082",
+				"24A6AF07D569024A0AE60CDD",
+				"7DD33A7E7A2B608AF6E22CA6",
+				"9C8041CCA0E966EBC4EE9A3E",
+				"F6F87D1919D31B9F35EA5956",
+				"DA29D860225301DD6A7E3EC7",
+				"9609CB6E6F16903C40597C51",
+				"766491A1EC3CCAC450B407A5",
+				"250C4E4E077EF13D9CD377E1",
+				"36B53A866252D99E95CAFAAD",
+				"AF946598FAAE2E424DB304B1");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		12E908B8A1C3C07C115504F5 = {
+			isa = PBXGroup;
+			children = (
+				"954B2D0F99B539B97EBC5A1A",
+				"79512B917597FE7309641687",
+				"C27D65D36414D795024079C8",
+				"22CE0F6DB30D53459DF5F673",
+				"5B93D86433CB33126F372C8E",
+				"97E88FAEC5A69D2B8BD8E3BD",
+				"7D8FB04D5A9F4EB9CFFAA553",
+				"B0B01F41CB75AFA0AACC9F9D",
+				"9580DC71C4DD7B015F9D2D68",
+				"5DF7366E1187BB347FE3BD01",
+				"10BE4F941A2B42409119EA6C");
+			name = "Sources [uic]";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"49441C4D44278F541D5D1D73",
+				"ED1D4903B51D9909B352F1CA",
+				"F9133C967F397499863F90CE",
+				"3BECC203E4CE070C65C4E97C");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/ -f M5Apk.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"C6A1348B010C50BECF908758",
+				"0A6965C9DC680AF34A1E2A25",
+				"27F75FE3E0B26799C5888F10",
+				"891951ECF1115FBC38304F68",
+				"89CD36199BF73EF57A0E2289",
+				"D176AA2F59F303CBB9D32834",
+				"0EB75B48A4204A4D0673C6C9",
+				"F84162C0029841E18FAA19E4",
+				"A46D93BDCF5091B9F442FF97",
+				"720AE63FA503E7D78D9924EA",
+				"969C059613349ECB0D235E07",
+				"6EB4AAB0C9E5AF4F7C29D8A4",
+				"B7A0C00F19613AC214D39E60",
+				"6A031F5213DEB7D7DF9FCD26",
+				"DCEB128986A791EB87B4231B",
+				"096FE3C746D48109E4896CFD",
+				"E3EB7E421AA449B10EF7AD5D",
+				"BF41E8F52364C113BCAB73A3",
+				"2499CB2DBF3F7D04F2A5F0E6",
+				"748B2C2375EDD632E5C11AF0",
+				"1FCACAA5414D5CED57AD6B7A",
+				"B024C58030F765289C3034A8",
+				"F7F6C1ACB676AA9D75ABD4CE",
+				"0B50AF177214E3E8BA78B435",
+				"8DB13B7C38D791F51A56174E",
+				"6D95DEB21C9CE76C2C078A63",
+				"01092DC59AD68C3603586548",
+				"8AE3C7AECB6D07F206505D69",
+				"0680BB7CC674059AC3298F19",
+				"DFDD20BB680321BE489912B4",
+				"39FCDD237A8F8E6657C59D4A",
+				"EC9255BC3D758E24F4C4574C",
+				"52915CB5808FDC90739A3320",
+				"07E00CC5A49E0801D6FC92FC",
+				"DB0B16234F26A7BC3A04256E",
+				"EF4F7421E6D1A44E878E42EE",
+				"80DEB4EACAB14EDCE0DC3191",
+				"FEE9BB68CA0F385F86E9BE42",
+				"37E575ACBF2AB72E83CDAEAB",
+				"3E4DE292E6532CC213E34F99",
+				"7032D6A167E64F0834FAF19E",
+				"CA0F573E987BC168B8103AE8",
+				"16B47269A3E1B695076D27A9",
+				"EC1112D2892D302AA5C6CB72",
+				"07A22EE920D44608B2701EE1",
+				"790B64BEE9269ACB1BF9DEF3",
+				"BB97C15D1B4A63DCD6E7B2C9",
+				"1A146421D2442092041A3DB2",
+				"1448D002FF1A5C9A3D0EA7AA",
+				"E51C485883C1256AC263B6B5",
+				"9467073043527518CB690221",
+				"D4EA275F22A834F62C0F6F38",
+				"3FA5E9050DBEA396FCDCE538",
+				"2F690FF5DC2CB2D192BB3A30",
+				"30EEE65274DC92973716BAF7",
+				"A72DC83F961C87F079C625D2",
+				"8F7E7011671B70A83BD985BF",
+				"3A303FEAD51DFA61AF0DAEDA",
+				"5ADF9B21AF7F6F6F797364D6",
+				"13CBF1C07588153ED912C0DD",
+				"1B007A692F475C3315D313FB",
+				"0425EDDB17A314B741F8F43F",
+				"A8C65E5AB5BF9F8B1949C3A0",
+				"1E81DB78CDF8FFC64E5A4D10",
+				"5464F286A9C46CBEAF9653D8",
+				"8E1E2669206764F381901958",
+				"0783173D1B1964F5A06EFEF4",
+				"1486582131267D481D62E4B9",
+				"32B69DACC8DDA475D2A85A34",
+				"E304B3C8BE8E2A30DED8DC36",
+				"E32529356D36F0FD32BB5654",
+				"B3FD5DE475844B4A24CD9211",
+				"B53B69B52A93E85E7E973FA5",
+				"306D00744A02996B2D8E629B",
+				"08B8A5FED81F37080B89B969",
+				"E3902E38B7664DDDC85C762E",
+				"A6271145815ADCB710E7D43C",
+				"59A2C8086E7AE80FCBAD63E4",
+				"BF1D12713D471949169BECD8",
+				"91C89566096AFD3150C4E414",
+				"C4346E50375439F2DB6D12A7",
+				"3FEEC8CB8C5D008125550D14",
+				"A6599D9FDF5854724EBEBE24",
+				"E09EA1F6B4C253F99BF42853",
+				"765A59D27FF8EDD947D847DA",
+				"4097D3D3A69B88896B875E8C",
+				"C625A496264139632579E8CE",
+				"9CB9C7E3BDACA3043567E4B4",
+				"706CEB865BE3F3098136474E");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		26C466BFD91292B4888741B6 = {
+			isa = PBXFileReference;
+			name = "qios";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		80A551C4419C1ACF4AC17ED7 = {
+			fileRef = "26C466BFD91292B4888741B6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FCC237CA5AD60B9BA4447615 = {
+			isa = PBXFileReference;
+			name = "Foundation.framework";
+			path = "/System/Library/Frameworks/Foundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F26454630C80841CBDCFE1CA = {
+			fileRef = "FCC237CA5AD60B9BA4447615";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EC00404ACD5AB0E97726B0E = {
+			isa = PBXFileReference;
+			name = "QuartzCore.framework";
+			path = "/System/Library/Frameworks/QuartzCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B460F624007324313696BE86 = {
+			fileRef = "7EC00404ACD5AB0E97726B0E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4D765E1B1EA6C757220C63E7 = {
+			isa = PBXFileReference;
+			name = "CoreFoundation.framework";
+			path = "/System/Library/Frameworks/CoreFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F8B465CE34D8DF87AAE95913 = {
+			fileRef = "4D765E1B1EA6C757220C63E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7D7B02101166B76FD2D4F8B4 = {
+			isa = PBXFileReference;
+			name = "CoreText.framework";
+			path = "/System/Library/Frameworks/CoreText.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		2B02D9DC58A01E45248DDBCE = {
+			fileRef = "7D7B02101166B76FD2D4F8B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6AE3EC31EE5BB1FCEE84137C = {
+			isa = PBXFileReference;
+			name = "CoreGraphics.framework";
+			path = "/System/Library/Frameworks/CoreGraphics.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0CE02722F00CAD43741297B5 = {
+			fileRef = "6AE3EC31EE5BB1FCEE84137C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		75505686136CB76EE06C4D79 = {
+			isa = PBXFileReference;
+			name = "Qt5PlatformSupport";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/lib/libQt5PlatformSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C49F91F7B58D9D2D74A4AD70 = {
+			fileRef = "75505686136CB76EE06C4D79";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C0B98900C8C92B904D08C5BA = {
+			isa = PBXFileReference;
+			name = "Qt5DBus";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/lib/libQt5DBus$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4ADB262795F32A3F7ABADB1C = {
+			fileRef = "C0B98900C8C92B904D08C5BA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		02006C68311A4DA648B207EF = {
+			isa = PBXFileReference;
+			name = "qtfreetype";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/lib/libqtfreetype$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		55148E0ADC345F6A426C2919 = {
+			fileRef = "02006C68311A4DA648B207EF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DC762D28845B22B3086193D6 = {
+			isa = PBXFileReference;
+			name = "Qt5Widgets";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/lib/libQt5Widgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E36DE52A524DC1D406C7CF90 = {
+			fileRef = "DC762D28845B22B3086193D6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		205259EEEE2BADA5E64741E3 = {
+			isa = PBXFileReference;
+			name = "Security.framework";
+			path = "/System/Library/Frameworks/Security.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		15364689D2AB5A30E87A689F = {
+			fileRef = "205259EEEE2BADA5E64741E3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FF5BDAB0076F3391B219EA52 = {
+			isa = PBXFileReference;
+			name = "SystemConfiguration.framework";
+			path = "/System/Library/Frameworks/SystemConfiguration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		D4639595C3BCF2A39D88DF6E = {
+			fileRef = "FF5BDAB0076F3391B219EA52";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		47C271737A524657530EA940 = {
+			isa = PBXFileReference;
+			name = "qdds";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/imageformats/libqdds$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A5D4F243FA8628DA0519516C = {
+			fileRef = "47C271737A524657530EA940";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5EF651E4D642AEE10AEF7BEE = {
+			isa = PBXFileReference;
+			name = "qicns";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/imageformats/libqicns$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F3B1E00A4CA349A46EC37F83 = {
+			fileRef = "5EF651E4D642AEE10AEF7BEE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F1B4D73132E3320C001E1D59 = {
+			isa = PBXFileReference;
+			name = "qico";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		97922F94C85121AD410C4DCE = {
+			fileRef = "F1B4D73132E3320C001E1D59";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9D7F7CF8D4CB38CC848B9697 = {
+			isa = PBXFileReference;
+			name = "qtga";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/imageformats/libqtga$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		243C5C8C0EFD470818658289 = {
+			fileRef = "9D7F7CF8D4CB38CC848B9697";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		975A1068A1501714B7B6AFAF = {
+			isa = PBXFileReference;
+			name = "qtiff";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/imageformats/libqtiff$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		48D7D2CA38ED8B23F73D5A8A = {
+			fileRef = "975A1068A1501714B7B6AFAF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E9DFBE40F0E0F7762D340FD3 = {
+			isa = PBXFileReference;
+			name = "qwbmp";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/imageformats/libqwbmp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		03AD20DE0AE59DA19A44F1ED = {
+			fileRef = "E9DFBE40F0E0F7762D340FD3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		931F701128A8FEB07C9AD0CF = {
+			isa = PBXFileReference;
+			name = "qwebp";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/imageformats/libqwebp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		3A77E56AAA64F35AD2ABD5A7 = {
+			fileRef = "931F701128A8FEB07C9AD0CF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		32EF7EF98A154185E0C1DC1B = {
+			isa = PBXFileReference;
+			name = "Qt5Gui";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4B9C906CCB1BE03B7113FFE1 = {
+			fileRef = "32EF7EF98A154185E0C1DC1B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C43CF7F7F4DDEFEDA4E878FA = {
+			isa = PBXFileReference;
+			name = "qtharfbuzzng";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/lib/libqtharfbuzzng$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		EEEEBF0A4EA26AB4ACE83C9C = {
+			fileRef = "C43CF7F7F4DDEFEDA4E878FA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AB77B709CCC3CA544698AA9E = {
+			isa = PBXFileReference;
+			name = "qsqlite";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/sqldrivers/libqsqlite$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		90DD58F6054B498FF16436FF = {
+			fileRef = "AB77B709CCC3CA544698AA9E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		900333D76B29886123B2FD34 = {
+			isa = PBXFileReference;
+			name = "Qt5Sql";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/lib/libQt5Sql$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		95DA01703F716572AAB788EA = {
+			fileRef = "900333D76B29886123B2FD34";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B633C718814C9FA94EF8AAA0 = {
+			isa = PBXFileReference;
+			name = "qgenericbearer";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/bearer/libqgenericbearer$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B9C73BF13441BF1E97FF39EF = {
+			fileRef = "B633C718814C9FA94EF8AAA0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C4A1416C40D3FBC7CF17E626 = {
+			isa = PBXFileReference;
+			name = "Qt5Network";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/lib/libQt5Network$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		D1068A4E32812EB9BFFE927F = {
+			fileRef = "C4A1416C40D3FBC7CF17E626";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		827697F9C40145F2FDC362FE = {
+			isa = PBXFileReference;
+			name = "Qt5Core";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7B825FC99E4D666EC7E19AE2 = {
+			fileRef = "827697F9C40145F2FDC362FE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6E0ECDBA08482A13592D1FBD = {
+			isa = PBXFileReference;
+			name = "qtpcre";
+			path = "/Users/chenchaowei/Qt5.6.1/5.6/ios/lib/libqtpcre$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A97384E5CDD6B1B569F6D77C = {
+			fileRef = "6E0ECDBA08482A13592D1FBD";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"26C466BFD91292B4888741B6",
+				"FCC237CA5AD60B9BA4447615",
+				"7EC00404ACD5AB0E97726B0E",
+				"4D765E1B1EA6C757220C63E7",
+				"7D7B02101166B76FD2D4F8B4",
+				"6AE3EC31EE5BB1FCEE84137C",
+				"75505686136CB76EE06C4D79",
+				"C0B98900C8C92B904D08C5BA",
+				"02006C68311A4DA648B207EF",
+				"DC762D28845B22B3086193D6",
+				"205259EEEE2BADA5E64741E3",
+				"FF5BDAB0076F3391B219EA52",
+				"47C271737A524657530EA940",
+				"5EF651E4D642AEE10AEF7BEE",
+				"F1B4D73132E3320C001E1D59",
+				"9D7F7CF8D4CB38CC848B9697",
+				"975A1068A1501714B7B6AFAF",
+				"E9DFBE40F0E0F7762D340FD3",
+				"931F701128A8FEB07C9AD0CF",
+				"32EF7EF98A154185E0C1DC1B",
+				"C43CF7F7F4DDEFEDA4E878FA",
+				"AB77B709CCC3CA544698AA9E",
+				"900333D76B29886123B2FD34",
+				"B633C718814C9FA94EF8AAA0",
+				"C4A1416C40D3FBC7CF17E626",
+				"827697F9C40145F2FDC362FE",
+				"6E0ECDBA08482A13592D1FBD");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"80A551C4419C1ACF4AC17ED7",
+				"F26454630C80841CBDCFE1CA",
+				"B460F624007324313696BE86",
+				"F8B465CE34D8DF87AAE95913",
+				"2B02D9DC58A01E45248DDBCE",
+				"0CE02722F00CAD43741297B5",
+				"C49F91F7B58D9D2D74A4AD70",
+				"4ADB262795F32A3F7ABADB1C",
+				"55148E0ADC345F6A426C2919",
+				"E36DE52A524DC1D406C7CF90",
+				"15364689D2AB5A30E87A689F",
+				"D4639595C3BCF2A39D88DF6E",
+				"A5D4F243FA8628DA0519516C",
+				"F3B1E00A4CA349A46EC37F83",
+				"97922F94C85121AD410C4DCE",
+				"243C5C8C0EFD470818658289",
+				"48D7D2CA38ED8B23F73D5A8A",
+				"03AD20DE0AE59DA19A44F1ED",
+				"3A77E56AAA64F35AD2ABD5A7",
+				"4B9C906CCB1BE03B7113FFE1",
+				"EEEEBF0A4EA26AB4ACE83C9C",
+				"90DD58F6054B498FF16436FF",
+				"95DA01703F716572AAB788EA",
+				"B9C73BF13441BF1E97FF39EF",
+				"D1068A4E32812EB9BFFE927F",
+				"7B825FC99E4D666EC7E19AE2",
+				"A97384E5CDD6B1B569F6D77C");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		9C316F444A62BF296E3E1F25 = {
+			isa = PBXShellScriptBuildPhase;
+			name = "Project Copy";
+			buildActionMask = 2147483647;
+			files = (
+				);
+			inputPaths = (
+				);
+			outputPaths = (
+				);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh";
+			shellScript = "cp -r $BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME /Users/chenchaowei/work/qt_project/M5Tcp/bin/apk";
+			showEnvVarsInLog = "0";
+		};
+		DCD455D96F6E4B0191B10330 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/M5Apk.xcodeproj/Default-568h@2x.png";
+			name = "Default-568h@2x.png";
+			sourceTree = "<absolute>";
+		};
+		51ED1AF088180D09B00C8B38 = {
+			fileRef = "DCD455D96F6E4B0191B10330";
+			isa = PBXBuildFile;
+		};
+		5E46F5BFE13D8374689CC284 = {
+			isa = PBXFileReference;
+			path = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/M5Apk.xcodeproj/LaunchScreen.xib";
+			name = "LaunchScreen.xib";
+			sourceTree = "<absolute>";
+		};
+		E646FA1806B7E3E7CA120F76 = {
+			fileRef = "5E46F5BFE13D8374689CC284";
+			isa = PBXBuildFile;
+		};
+		858FCAB0EB1F29CF8B07677C = {
+			children = (
+				"DCD455D96F6E4B0191B10330",
+				"5E46F5BFE13D8374689CC284");
+			isa = PBXGroup;
+			name = "Bundle Data";
+			sourceTree = "<group>";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				"51ED1AF088180D09B00C8B38",
+				"E646FA1806B7E3E7CA120F76");
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		03BDA51469435C4A5A1CB4DE = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "M5Apk.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"03BDA51469435C4A5A1CB4DE");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"74B182DB50CB5611B5C1C297",
+				"87DF60DE337FB58864343E39",
+				"12E908B8A1C3C07C115504F5",
+				"AF39DD055C3EF8226FBE929D",
+				"858FCAB0EB1F29CF8B07677C",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "M5Apk";
+			sourceTree = "<group>";
+		};
+		3768758968C17D51671ABCA9 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		33DBDDF86794EA7ACEFA76F9 = {
+			isa = PBXTargetDependency;
+			target = "3768758968C17D51671ABCA9";
+		};
+		2FE089139C23FE19AE995A03 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"9C316F444A62BF296E3E1F25",
+				"30414803F31797EB689AE508");
+			dependencies = (
+				"33DBDDF86794EA7ACEFA76F9");
+			productReference = "03BDA51469435C4A5A1CB4DE";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "M5Apk";
+			productName = "M5Apk";
+			productInstallPath = "../../bin/apk/";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_NAME = "M5Apk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "_debug";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/";
+				INSTALL_DIR = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk//../../bin/apk/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "6.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					".",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/mkspecs/macx-ios-clang/ios",
+					"global",
+					"global/component",
+					"global/component/item",
+					"option",
+					"product_list",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include/QtWidgets",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include/QtGui",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include/QtSql",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include/QtNetwork",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include/QtCore",
+					"obj",
+					"obj/ui_header",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/lib",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/imageformats",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/sqldrivers",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/bearer");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-Wno-unused-parameter",
+					"-O2",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-Wno-unused-parameter",
+					"-O2",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-u",
+						"_qt_registerPlatformPlugin",
+						"-Wl,-e,_qt_main_wrapper",
+						"-L/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/chenchaowei/Qt5.6.1/5.6/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/imageformats",
+						"-L/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/sqldrivers",
+						"-L/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/bearer",
+						"-lz",
+						"-lm");
+				ARCHS = "armv7 arm64 i386 x86_64";
+				OBJROOT = "obj/";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_NAME = "M5Apk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "_debug";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "M5Apk";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "YES";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "M5Apk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/";
+				INSTALL_DIR = "/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk//../../bin/apk/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "6.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					".",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/mkspecs/macx-ios-clang/ios",
+					"global",
+					"global/component",
+					"global/component/item",
+					"option",
+					"product_list",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include/QtWidgets",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include/QtGui",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include/QtSql",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include/QtNetwork",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/include/QtCore",
+					"obj",
+					"obj/ui_header",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/lib",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/imageformats",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/sqldrivers",
+					"/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/bearer");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-Wno-unused-parameter",
+					"-O2",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-Wno-unused-parameter",
+					"-O2",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-u",
+						"_qt_registerPlatformPlugin",
+						"-Wl,-e,_qt_main_wrapper",
+						"-L/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/chenchaowei/Qt5.6.1/5.6/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/imageformats",
+						"-L/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/sqldrivers",
+						"-L/Users/chenchaowei/Qt5.6.1/5.6/ios/plugins/bearer",
+						"-lz",
+						"-lm");
+				ARCHS = "armv7 arm64 i386 x86_64";
+				OBJROOT = "obj/";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "YES";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "M5Apk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "M5Apk";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"2FE089139C23FE19AE995A03",
+				"3768758968C17D51671ABCA9");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

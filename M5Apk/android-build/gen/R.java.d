@@ -1,0 +1,26 @@
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/gen/org/qtproject/m5/R.java \
+ : /Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/drawable-ldpi/icon.png \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/drawable-mdpi/icon.png \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/layout/splash.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values/libs.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-de/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-el/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-es/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-et/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-fa/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-fr/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-id/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-it/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-ja/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-ms/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-nb/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-nl/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-pl/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-pt-rBR/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-ro/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-rs/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-ru/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-zh-rCN/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/res/values-zh-rTW/strings.xml \
+/Users/chenchaowei/work/qt_project/M5Tcp/source/M5Apk/android-build/bin/AndroidManifest.xml \

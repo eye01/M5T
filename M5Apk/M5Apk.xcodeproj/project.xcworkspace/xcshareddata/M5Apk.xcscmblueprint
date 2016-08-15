@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "87E0ADB5D0602982B51B1E74C1EBC92122831763",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "87E0ADB5D0602982B51B1E74C1EBC92122831763" : 0,
+    "298BEB8550C527F7E92EFAB38F88C8AA16EF52C4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "64A07C05-602D-4DB4-8EB5-1B37E6D6F7D2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "87E0ADB5D0602982B51B1E74C1EBC92122831763" : "source\/",
+    "298BEB8550C527F7E92EFAB38F88C8AA16EF52C4" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "M5Apk",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "M5Apk\/M5Apk.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eye01\/M5Tcp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "298BEB8550C527F7E92EFAB38F88C8AA16EF52C4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eye01\/M5Tcp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87E0ADB5D0602982B51B1E74C1EBC92122831763"
+    }
+  ]
+}
